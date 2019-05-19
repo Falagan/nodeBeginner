@@ -1,8 +1,14 @@
 let http = require('http');
+let url = require('url');
 
-function iniciar () {
-    function onRequest(req, response) {
+function iniciar(handle, router) {
+    function onRequest(request, response) {
         console.log('Peticion Recibida.')
+        let pathName = url.parse(request.url).pathname;
+        console.log(`Url requerida: ${pathName}`);
+
+        router(handle, pathName);
+
         response.writeHead(200, {
             "Content-Type": "text/html"
         });

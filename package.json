@@ -1,0 +1,28 @@
+{
+  "name": "nodebeginner",
+  "version": "1.0.0",
+  "description": "Node beginner tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon node index.js"
+  },
+  "nodemonConfig": {
+    "delay": 3000
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Falagan/nodeBeginner.git"
+  },
+  "keywords": [
+    "node",
+    "beginner"
+  ],
+  "author": "Eloy Pérez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Falagan/nodeBeginner/issues"
+  },
+  "homepage": "https://github.com/Falagan/nodeBeginner#readme",
+  "dependencies": {}
+}
