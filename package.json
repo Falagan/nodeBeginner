@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "nodemon node index.js"
+    "start": "pm2 start ecosystem.config.js"
   },
   "nodemonConfig": {
     "delay": 3000
@@ -24,5 +24,9 @@
     "url": "https://github.com/Falagan/nodeBeginner/issues"
   },
   "homepage": "https://github.com/Falagan/nodeBeginner#readme",
-  "dependencies": {}
+  "dependencies": {
+    "formidable": "^1.2.1",
+    "oas": "^0.8.15",
+    "pm2": "^3.5.0"
+  }
 }

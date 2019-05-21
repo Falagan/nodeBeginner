@@ -1,0 +1,22 @@
+{
+    "openapi": "3.0.0",
+    "x-api-id": "nodebeginner",
+    "info": {
+      "description": "node beginner tutorial",
+      "version": "1.0.0",
+      "title": "Node Beginner Tutorial",
+      "contact": {
+        "email": "ep.falagan@gmail.com"
+      },
+      "license": {
+        "name": "Apache 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+      }
+    },
+    "servers": [
+      {
+        "url": "http://localhost:5000"
+      }
+    ],
+    "paths": {}
+  }
